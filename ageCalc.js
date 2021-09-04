@@ -1,4 +1,4 @@
-/*
+
 function ageCalculator(name, yearOfBirth, currentYear) {
   let age = 0;
   age = currentYear - yearOfBirth;
@@ -25,7 +25,7 @@ console.log(howManyHundreds(0), "=?", 0)
 
 //***********************************
 
-*/
+
 
 function calculateRectangleArea(length, width) {
   let area
