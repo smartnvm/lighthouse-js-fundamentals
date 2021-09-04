@@ -1,3 +1,4 @@
+console.log('\niterating over array with <For> loop\n')
 const packingList = ["bowls", "plates", "pots", "pans", "eating utensils", "glasses", "cups", "cooking utensils"];
 
 console.log("Kitchen stuff to pack:");
@@ -5,3 +6,11 @@ for (let i = 0; i < packingList.length; i++) {
   console.log(packingList[i]);
 }
 
+console.log('\niterating over array with <While> loop\n')
+
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
+}
